@@ -10,11 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".SubjectLearningActivity"></activity>
-        <activity android:name=".OperateSymbolActivity">
+        <activity android:name=".SubjectLearningActivity" />
+        <activity android:name=".OperateSymbolActivity"></activity>
+        <activity android:name=".TransformOperateSymbolActivity">
 
         </activity>
-        <activity android:name=".TransformOperateSymbolActivity">
+        <activity android:name=".ConcatActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
