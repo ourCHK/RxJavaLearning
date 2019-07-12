@@ -11,11 +11,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".SubjectLearningActivity" />
-        <activity android:name=".OperateSymbolActivity"></activity>
-        <activity android:name=".TransformOperateSymbolActivity">
-
-        </activity>
+        <activity android:name=".OperateSymbolActivity" />
+        <activity android:name=".TransformOperateSymbolActivity"></activity>
         <activity android:name=".ConcatActivity">
+        </activity>
+        <activity android:name=".FlowableLearningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
